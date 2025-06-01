@@ -1,0 +1,11 @@
+# Ignore Terraform system files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.crash
+*.log
+*.zip
+
+# Optional secrets
+terraform.tfvars
+terraform.tfvars.json
